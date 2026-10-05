@@ -20,5 +20,5 @@
   "requirements": [
     "aioairzone @ git+https://github.com/fabiencheret/aioairzone.git@b4dca87ed816e8d3f266b77d7f4841f8e94470dc"
   ],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

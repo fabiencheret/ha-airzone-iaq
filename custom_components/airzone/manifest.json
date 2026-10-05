@@ -1,0 +1,24 @@
+{
+  "codeowners": [
+    "@fabiencheret"
+  ],
+  "config_flow": true,
+  "dhcp": [
+    {
+      "macaddress": "E84F25*"
+    }
+  ],
+  "documentation": "https://github.com/fabiencheret/ha-airzone-iaq",
+  "domain": "airzone",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/fabiencheret/ha-airzone-iaq/issues",
+  "loggers": [
+    "aioairzone"
+  ],
+  "name": "Airzone (IAQ)",
+  "requirements": [
+    "aioairzone @ git+https://github.com/fabiencheret/aioairzone.git@b4dca87ed816e8d3f266b77d7f4841f8e94470dc"
+  ],
+  "version": "1.0.0"
+}
